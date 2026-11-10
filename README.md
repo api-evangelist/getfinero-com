@@ -1,4 +1,4 @@
-# getfinero-com
+# Finero
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,131 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-getfinero-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://getfinero.com/
+Finero provides an autonomous B2B payment collection platform that integrates with major ERP systems and payment processors. It automates invoice delivery, payment reminders, and cash application, reducing days sales outstanding and manual effort for finance teams. The solution supports integrations with NetSuite, SAP, Oracle, QuickBooks, Xero, and multiple payment gateways, offering a unified workflow from invoicing to reconciliation.
+
+**Areas:** FinTech · B2B · Payments · Automation · ERP
+
+## Finero on APIs.io
+
+Everything profiled for Finero is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/getfinero-com/](https://apis.io/providers/getfinero-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (11)
+
+- [Finero Public API](https://apis.io/apis/getfinero-com/finero-public-api/) — Tenant-scoped public API for Finero AR / cash-flow automation.
+- [Finero Aging API](https://apis.io/apis/getfinero-com/getfinero-com-aging-api/) — The Aging API from Finero — 3 operation(s) for aging.
+- [Finero API context API](https://apis.io/apis/getfinero-com/getfinero-com-api-context-api/) — The API context API from Finero — 1 operation(s) for api context.
+- [Finero ERP sync API](https://apis.io/apis/getfinero-com/getfinero-com-erp-sync-api/) — The ERP sync API from Finero — 6 operation(s) for erp sync.
+- [Finero Integrations API](https://apis.io/apis/getfinero-com/getfinero-com-integrations-api/) — The Integrations API from Finero — 1 operation(s) for integrations.
+- [Finero Invoices API](https://apis.io/apis/getfinero-com/getfinero-com-invoices-api/) — The Invoices API from Finero — 3 operation(s) for invoices.
+- [Finero Payment links API](https://apis.io/apis/getfinero-com/getfinero-com-payment-links-api/) — The Payment links API from Finero — 4 operation(s) for payment links.
+- [Finero Payments API](https://apis.io/apis/getfinero-com/getfinero-com-payments-api/) — The Payments API from Finero — 3 operation(s) for payments.
+- [Finero Scheduler API](https://apis.io/apis/getfinero-com/getfinero-com-scheduler-api/) — The Scheduler API from Finero — 2 operation(s) for scheduler.
+- [Finero Tasks API](https://apis.io/apis/getfinero-com/getfinero-com-tasks-api/) — The Tasks API from Finero — 2 operation(s) for tasks.
+- [Finero Workflows API](https://apis.io/apis/getfinero-com/getfinero-com-workflows-api/) — The Workflows API from Finero — 2 operation(s) for workflows.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Finero Agentic Access](https://apis.io/agentic-access/getfinero-com/getfinero-com-agentic-access/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Getfinero Com Context](https://apis.io/jsonld/getfinero-com/getfinero-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Finero API Rules](https://apis.io/rules/getfinero-com/getfinero-com-rules/)
+
+#### Security (4)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Finero Authentication](https://apis.io/security/getfinero-com/getfinero-com-authentication/)
+- [Finero Domain Security](https://apis.io/security/getfinero-com/getfinero-com-domain-security/)
+- [Finero Trust Center](https://apis.io/security/getfinero-com/getfinero-com-trust-center/)
+- [Finero Vulnerability Disclosure](https://apis.io/security/getfinero-com/getfinero-com-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Finero Plans Pricing](https://apis.io/plans/getfinero-com/getfinero-com-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://getfinero.com/)
+- [Documentation](https://getfinero.com/developers)
+- [Getting started](https://getfinero.com/demo)
+- [Pricing](https://getfinero.com/pricing)
+- [Support](https://getfinero.com/contact)
+- [Security](https://getfinero.com/security)
+- [Compliance](https://getfinero.com/security)
+- [Terms of service](https://app.getfinero.com/terms-of-use)
+- [Privacy policy](https://getfinero.com/privacy-policy)
+
+## API Evangelist rating
+
+**Kin Score 56.0** — strong · rubric 0.27.0 · scored 2026-11-10
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 50.5 |
+| Contract governance | 79.1 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 54.0 |
+| Access clarity | 66.3 |
+
+**Agent readiness 51.2** — agent-native
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | verified |
+| Error Semantics | verified |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | paginated |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 32.1** — Payments
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/getfinero-com/](https://apis.io/providers/getfinero-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Finero: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/getfinero-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
